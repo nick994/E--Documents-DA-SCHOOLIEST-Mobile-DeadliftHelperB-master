@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainScreen">
+
+
+    <item android:id="@+id/action_clear_records" android:title="Clear Records"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_how_to"
+        android:orderInCategory="0"
+        android:icon="@mipmap/ic_launcher"
+        android:title="how_to"
+        app:showAsAction="always" />
+
+
+</menu>

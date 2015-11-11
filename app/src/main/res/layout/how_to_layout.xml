@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Welcome! Let&apos;s get started:"
+                android:id="@+id/textView2"
+                android:layout_weight="0.84" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView3"
+                android:layout_weight="1.49"
+                android:text="Here we will explain the basic how-to guide for the Deadlift Helper. You will need to know how to (1) set up your phone on the bar and (2) interpret the data.
+                " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingTop = "20dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="(1) Phone setup:"
+                android:id="@+id/textView4"
+                android:layout_weight="0.84" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Attatch your phone to the bar like so, with the screen facing AWAY from your body when you lift:"
+                android:id="@+id/textView5"
+                android:layout_weight="0.84" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingTop = "20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Attatch your phone to the bar like so:"
+                android:id="@+id/imageView"
+                android:src="@drawable/pic1"
+                android:layout_weight="0.84" />
+
+
+            <TextView
+                android:paddingTop = "30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="(2) Interpretting Results:"
+                android:id="@+id/textView6"
+                android:layout_weight="0.84" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView7"
+                android:layout_weight="0.84"
+                android:text="This application shows three acceleration graphs: vertical, horizontal and sideways.
+
+
+\n\nVertical acceleration is the acceleration of the bar from floor to hip, as you lift it (up is positive, down is negative). Ideally this increases throughout the entire lift.
+
+\n\nHorizontal accelaration is the acceleration of the bar towards and away from you, as you lift it (away from you is positive, towards you is negative). Ideally this is 0 for the entire lift.
+
+\n\nSideways acceleration is the acceleration of the bar left and right as you lift it (left is positive, right is negative). Ideally this is 0 for the entire lift.
+
+\n\nThese acceleration values are plotted versus time, so you can see at what point during each lift your accelaration in a certain direction started to change.
+
+\n\nAlso remember that acceleration can be positive or negative. Negative acceleration indicates that the bar is moving in the negative direction at an increasing rate; 0 accelaration indicates that the bar is not moving or it is moving at an unchanging rate; positive accelaration indicates that the bar is moving in hte positive direction at an increasing rate.
+                 "/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
